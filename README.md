@@ -7,7 +7,7 @@ A tiny (< 1KB minified and gzipped) JavaScript dependency injector / service loc
 
 Although Needly was originally designed for use in Backbone application, it has no external dependencies. Go ahead and include Needly in your project any way you see fit. `Needly` works as a browser global, AMD module, and with node.js.
 
-Start by initializing a new `Needly.Container`. In most cases you'll need one container throughout the applicatioon lifetime.
+Start by initializing a new `Needly.Container`. In most cases you'll need one container throughout the application lifetime.
 
 ```javascript
   var needs = new Needly.Container();

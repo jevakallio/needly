@@ -21,7 +21,7 @@ I like to call the instance `needs`, because it flows nicely with the rest of th
   var View = Backbone.View.extend({
     navigation: needs.property('navigationservice')
     initialize: function() {
-      needs.fulfill(this);
+      needs.resolveAll(this);
     },
     onCancel: function() {
       this.navigation.back();
